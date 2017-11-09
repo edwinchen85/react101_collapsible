@@ -1,5 +1,6 @@
 import React from 'react';
 import image from '../images/expand-vertical-4.svg';
+import Collapsible from './Collapsible';
 
 class App extends React.Component {
     render() {
@@ -11,7 +12,7 @@ class App extends React.Component {
                 </header>
                 <div className="content">
                     <div className="panel-group">
-
+                      <Collapsible />
                     </div>
                 </div>
             </div>
