@@ -11,6 +11,7 @@ class Collapsible extends React.Component {
 
   handleToggle(e) {
     e.preventDefault();
+    console.log(this.refs.inner.clientHeight)
     this.setState({
       isExpanded: !this.state.isExpanded
     });
@@ -25,7 +26,7 @@ class Collapsible extends React.Component {
           <h2>{title}</h2>
         </div>
         <div className="panel-collapse">
-          <div className="panel-body">
+          <div className="panel-body" ref="inner">
             {children}
           </div>
         </div>
