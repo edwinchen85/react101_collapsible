@@ -12,7 +12,15 @@ class App extends React.Component {
                 </header>
                 <div className="content">
                     <div className="panel-group">
-                      <Collapsible />
+                      <Collapsible title="Overview">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione numquam magnam quo maiores ipsa. Eius.</p>
+                      </Collapsible>
+                      <Collapsible title="Features">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione numquam magnam quo maiores ipsa. Eius.</p>
+                      </Collapsible>
+                      <Collapsible title="Software">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione numquam magnam quo maiores ipsa. Eius.</p>
+                      </Collapsible>
                     </div>
                 </div>
             </div>
